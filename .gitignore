@@ -1,0 +1,19 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm-cache/
+
+# Generated builds and TypeScript cache
+dist/
+*.tsbuildinfo
+
+# Local environment files and recordings
+.env
+.env.*
+!.env.example
+recordings/
+*.webm
+
+# Operating-system/editor files
+.DS_Store
+Thumbs.db
+.vscode/
